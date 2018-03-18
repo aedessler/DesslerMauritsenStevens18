@@ -5,7 +5,7 @@ from netCDF4 import Dataset
 ##########
 # this code takes netCDF files downloaded from the CMIP5 archive and creates a file containing
 # global and tropical average values for analysis in Dessler et al., ACP, 2018
-# the program calls CDO, Climate Data Operators: https://code.mpimet.mpg.de/projects/cdo/, to
+# the program calls CDO, Climate Data Operators (https://code.mpimet.mpg.de/projects/cdo/), to
 # manipulate the netCDF files.
 
 dirx='/sn2/dessler/cmip5c/'
