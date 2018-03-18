@@ -3,6 +3,7 @@ import pdb, glob, os
 from netCDF4 import Dataset
 
 ##########
+# this is a python2.7 program
 # this code takes netCDF files downloaded from the CMIP5 archive and creates a file containing
 # global and tropical average values for analysis in Dessler et al., ACP, 2018
 # the program calls CDO, Climate Data Operators (https://code.mpimet.mpg.de/projects/cdo/), to
